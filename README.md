@@ -16,7 +16,11 @@ Since no FOSS option fit my needs, I built my own with three key features:
 
 ## Screenshots
 
-TODO
+<div align="center" style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/BrunoRochaDev/AlwaysOnTimer/raw/main/screenshots/screenshot_1.jpg" width="30%" />
+  <img src="https://github.com/BrunoRochaDev/AlwaysOnTimer/raw/main/screenshots/screenshot_2.jpg" width="30%" />
+  <img src="https://github.com/BrunoRochaDev/AlwaysOnTimer/raw/main/screenshots/screenshot_3.jpg" width="30%" />
+</div>
 
 ## Where To Get
 
