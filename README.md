@@ -28,9 +28,9 @@ TODO
 
 ## How It Works
 
-To allow the app to be used without unlocking the device, I use special window flags. On devices running Android Oreo (API 26) or higher, I call `setShowWhenLocked(true)` and `setTurnScreenOn(true)`, which ensures the app remains visible and the screen turns on automatically. For devices running older versions, I use `WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED` and `WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON` to achieve the same effect, enabling the app to stay on screen and wake up the device when needed.
+To allow the app to be used without unlocking the device when it was the last app opened, I use special window flags. On Android Oreo (API 26) and above, this is done by calling `setShowWhenLocked(true)`. For older versions, I apply the `WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED` flag. This ensures the timer stays visible and accessible directly from the lock screen.
 
-Credit to the [Goodtime](https://github.com/adrcotfas/goodtime) app, whose implementation for this I *stole shamelessly* because I had no idea how to do it.
+Credit to the [Goodtime](https://github.com/adrcotfas/goodtime) app, whose implementation for this I *stole shamelessly*.
 
 ## License
 
