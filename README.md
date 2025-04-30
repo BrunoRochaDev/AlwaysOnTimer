@@ -24,7 +24,7 @@ Since no FOSS option fit my needs, I built my own with three key features:
 
 ## Where To Get
 
-TODO
+You can download the latest APK from the [Releases](https://github.com/BrunoRochaDev/AlwaysOnTimer/releases) page, or build the app yourself by opening the project in Android Studio and selecting **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
 ## How It Works
 
